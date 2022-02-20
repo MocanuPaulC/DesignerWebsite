@@ -1,0 +1,385 @@
+@font-face {
+    font-family: BurbankOVI;
+    src: url("../fonts/bigcast.ttf");
+}
+
+@font-face{
+    font-family: Ortica;
+    src: url("../fonts/Ortica-Light.otf");
+}
+
+@font-face{
+    font-family: PalisadeBold;
+    src: url("../fonts/PalisadeBoldItalic.ttf");
+}
+
+ul{
+    list-style-type: none;
+}
+
+.intro{
+    background-color: ghostwhite;
+}
+
+div.intro table tr td div h1 {
+    font-size: 8rem;
+    text-align: justify;
+    padding: 0;
+    margin-top: -5px;
+}
+div.intro table tr td div h3{
+    text-align: justify;
+    font-family: Ortica;
+    color: dimgrey;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #0E485E;
+    align-items: center;
+}
+ul li{
+    padding: 5px;
+    font-size: 25px;
+    font-family: BurbankOVI;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+div ul li{
+    font-size: 15px;
+    font-family: "Times New Roman";
+}
+.todos{
+    display: flex;
+    justify-content: space-evenly;
+    padding:60px 100px;
+    background-color: #F6F4D2;
+}
+
+.middleToDo{
+    border: solid black;
+    padding-left: 75px;
+    margin: 0 -40px;
+}
+
+div.todos div.verticalLine{
+    border: solid black 2px;
+}
+
+li a img{
+    width: 30px;
+    margin-right: 20px;
+}
+
+nav ul li ul li a{
+    color: ghostwhite;
+    text-decoration: none;
+}
+li a:hover{
+    color: lightgray;
+}
+
+main{
+    background-color: ghostwhite;
+}
+
+
+.card{
+    width: 450px;
+    height: 550px;
+    background: url("../imgs/b_white.jpeg") no-repeat;
+    margin: 20px;
+    background-size: 450px;
+
+}
+
+a{
+    font-family: Ortica;
+}
+
+div.AppReview p span{
+    font-family: BurbankOVI;
+}
+
+h1, h3{
+    font-family: PalisadeBold;
+}
+
+p{
+    font-family: Ortica;
+}
+
+td[colspan="2"] h1{
+    text-align: center;
+    background-color: ghostwhite;
+    margin-left: -5px;
+    border-radius: 5px;
+    border: solid black;
+}
+div.AppReview table:nth-of-type(2) tr td{
+    vertical-align: top;
+}
+
+.card:hover{
+    background: url("../imgs/poz2.jpeg") no-repeat;
+    background-size: 450px;
+}
+
+
+main table tr td{
+    text-align: center;
+}
+
+table
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px
+}
+
+.AbtCard{
+    width: 450px;
+    height: 550px;
+    background: url("../imgs/WhatsApp Image 2021-12-22 at 23.25.56.jpeg") no-repeat;
+    margin: 20px;
+    background-size: 450px;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+main div p{
+    padding-bottom: 15px;
+}
+
+footer{
+    background-color: #0E485E;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    font-size: large;
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+
+}
+.persProj{
+    background-color: #F19C79;
+}
+
+.projectList{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 0;
+
+}
+
+div.todos{
+    text-align: center;
+}
+div.todos ul{
+    display: inline-block;
+    text-align: left;
+}
+
+div.todos h3{
+    color: dimgrey;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+div.todos li{
+    font-family: Ortica;
+    font-size: 1.1em;
+}
+
+div.persProj td ul{
+    padding: 20px 0;
+}
+
+div.persProj td ul li{
+    text-align: justify;
+    padding: 10px 0;
+}
+
+
+td ul li a {
+    font-size: 2em;
+    color: dimgrey;
+    text-decoration: none;
+}
+.whiteBar{
+    background-color: #F19C79;
+    height: 25px;
+    width: 100%;
+    margin: 30px 0;
+    padding: 0;
+}
+
+td p{
+    font-size: 25px;
+    text-align: justify;
+}
+div.USP img{
+    padding: 50px;
+    background-color: darkseagreen;
+}
+
+
+
+.USP{
+    background-color: #0E485E;
+}
+.sideBsideText{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 25%;
+    gap: 40px;
+    font-size: 20px;
+}
+
+#imgWrap{
+    flex-wrap: wrap;
+}
+.USP table tr td p{
+    color: ghostwhite;
+}
+
+
+
+div.AppReview div.sideBsideText{
+    justify-content: center;
+    align-items: center;
+}
+.USP img{
+    /*width: 50rem;*/
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: ghostwhite;
+    font-size: 3rem;
+    font-weight: bold;
+}
+td h2{
+    font-weight: bold;
+    text-align: justify;
+    font-size: 5rem;
+    color: ghostwhite;
+}
+
+
+td[rowspan="2"] img{
+    width: 60%;
+}
+td[rowspan="2"]{
+    padding: 0;
+}
+
+td[colspan="2"] img{
+    width: 100%;;
+}
+
+.USP td[colspan="2"] div.whiteBar{
+    background-color: ghostwhite;
+}
+
+
+td img{
+    /*max-width: 72%;*/
+    max-height: 100%;
+    width: 550px;
+}
+
+h2{
+    font-family: BurbankOVI;
+}
+
+.AppReview p{
+    margin: 15px 15px 0;
+}
+
+div.AppReview table:nth-of-type(2) tr td:nth-of-type(3) p {
+    padding-bottom: 115px;
+}
+
+.AppReview{
+    background-color: darkgray;
+}
+
+div.AppReview table{
+    padding: 10px;
+    display: block;
+}
+
+.AppReview p{
+    color: ghostwhite;
+}
+
+.PersApp div.whiteBar{
+    background-color: ghostwhite;
+}
+div.PersApp img{
+    width: -moz-fit-content;
+}
+
+div.AppReview div.whiteBar{
+    height: 90px;
+}
+
+div.AppReview img{
+    width: 500px;
+    padding: 50px;
+    background-color: ghostwhite;
+
+}
+div.AppReview table{
+    display: flex;
+    flex-wrap: wrap;
+}
+td[rowspan="2"] img{
+    width: 300px;
+}
+
+div.PersApp table tr td{
+    padding: 20px 0;
+}
+
+.PersApp{
+    background-color: #A44A3F;
+}
+div.PersApp p{
+    color: ghostwhite;
+    padding: 10px 15px;
+}
+
+div.PersApp table:nth-of-type(2) td{
+    vertical-align: top;
+}
